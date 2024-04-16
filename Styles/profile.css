@@ -1,3 +1,36 @@
-.profile_pic {
-    width: 10%;
+@import url('./reset.css');
+
+#profile_pic {
+    width: 15%;
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+}
+
+#bigFont{
+    font-size: 30px;
+}
+
+.flex-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#boldUnder {
+    text-decoration: solid;
+    text-decoration: underline;
+}
+
+.flex-box {
+    width: auto;
+    height: auto;
+    background: linear-gradient(Green,Gray);
+    color: white;
+    text-align: center;
+    line-height: 30px; /* spaces between lines */
+    font-size: 25px;
+    border-radius: 20px;
+    margin: 10px;
 }
