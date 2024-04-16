@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-size: larger;
+}
+h1 {
+    font-size: 75px;
+    text-decoration: underline rgb(178, 34, 34);
+    padding-bottom: 40px;
+}
+
+h2 {
+    color: #b22222;
+    text-decoration: underline black;
+}
+body {
+    text-align: center;
+    min-height: 100vh;
+    background: linear-gradient(gray, rgb(241, 235, 235));
+}
+
+#bold {
+    font-weight: bold;
+}
+
+.graph_pic {
+    object-fit: contain;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.img {
+    padding-left: 200px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    margin-top: 10px;
+    font-style: italic;
+}
