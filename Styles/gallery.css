@@ -1,0 +1,12 @@
+@import url('./animations.css');
+
+.gallery{
+  width: 80%;
+  height: 600px;
+  margin-inline: auto;
+  background-color: rgb(15, 198, 198);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+   
+  animation: galleryAnimation 15s ease-in-out 0s infinite;
+}
