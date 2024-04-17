@@ -1,0 +1,19 @@
+:root {
+    --ff: "Arial", sans-serif;
+
+    --fs-base: 1rem; /*16px*/
+    --fs-lg: 2rem; /*32*/
+    --fs-md: 1.5rem;
+
+    /*var(--space) --> קבלת הערך של המשתנה*/
+    --space: 0.5em; /*8px*/
+    --space-md: calc(var(--space) * 2);
+    --space-lg: calc(var(--space) * 9);
+
+    --clr-primary: rgba(30, 183, 254, 0.779);
+    --clr-secondary: rgb(102, 236, 133);
+    --clr-body: rgb(235, 53, 53);
+    --clr-accent: rgba(79, 248, 152, 0.977);
+
+    --border-radius: 0.5em;
+}

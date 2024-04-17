@@ -1,0 +1,41 @@
+@import url("./vars.css");
+@import url("./reset.css");
+
+body {
+    background-color: blanchedalmond;
+}
+
+.grid {
+    display: grid;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+
+.title {
+    font-family: Verdana, sans-serif;
+}
+
+.cards-holder {
+    margin-top: var(--space-lg);
+    grid-template-columns: repeat(3, 30%);
+    gap: var(--space);
+    justify-content: space-evenly;
+}
+
+.card {
+    padding: var(--space);
+    border: 5px solid var(--clr-secondary);
+}
+
+.card > .title {
+    font-size: var(--fs-lg);
+    background-color: var(--clr-accent);
+}
+
+button {
+    border-style: solid;
+    background-color: wheat;
+}
