@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile</title>
-    <link rel="stylesheet" href="./Styles/profile.css">
-    <link rel="stylesheet" href="./Styles/index.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="mobile.css">
-    <link rel="stylesheet" href="desktop.css">
-    <link rel="stylesheet" href="profile.css">
-</head>
-<body class="grid">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Profile</title>
+        <link rel="stylesheet" href="./Styles/profile.css" />
+        <link rel="stylesheet" href="./Styles/index.css" />
+        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="mobile.css" />
+        <link rel="stylesheet" href="desktop.css" />
+        <link rel="stylesheet" href="profile.css" />
+    </head>
+    <body class="grid">
         <div class="hamburger-menu">
             <input id="menu__toggle" type="checkbox" />
             <label class="menu__btn" for="menu__toggle">
-              <span></span>
+                <span></span>
             </label>
             <ul class="menu__box">
                 <li><a class="menu__item" href="index.html">Home</a></li>
@@ -24,24 +24,42 @@
                 <li><a class="menu__item" href="profile.html">Profile</a></li>
                 <li><a class="menu__item" href="#">Gallery</a></li>
                 <li><a class="menu__item" href="about.html">About</a></li>
-                <li><a class="menu__item" href="contact.html">Contact Us</a></li>
-              </ul>
-          </div>
-    </header>
-    <main>
-        <div class="flex-container">
-            <div class="flex-box">
-                <img id="profile_pic" src="/Styles/Pictures/Profile/BlankProfile.png" alt="Defult Profile Pic">
-                <h1 id="boldUnder" id="bigFont">Profile Name</h1>
-                <br>
-                <p>Client ID: 1234567890</p>
-                <p>Members Rank: Goated</p>
-
-            </div>
-            <div class="flex-box">general div</div>
-            <h2</h2>
-            <div class="flex-box">msg div</div>
+                <li>
+                    <a class="menu__item" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
         </div>
-    </main>
-</body>
+        <main>
+            <header></header>
+            <h1>Profile Page</h1>
+            <div class="flex-container">
+                <div class="flex-box-main">
+                    <img
+                        id="profile_pic"
+                        src="/Styles/Pictures/Profile/BlankProfile.png"
+                        alt="Defult Profile Pic"
+                    />
+                    <h2 id="boldUnder" id="bigFont">Profile Name</h2>
+                    <br />
+                    <p>Client ID: 1234567890</p>
+                    <p>Members Rank: Goated</p>
+                </div>
+
+                <div class="flex-box">
+                    <h2 id="boldUnder" id="bigFont">General Information</h2>
+                    <br />
+                    <p>First Name: James</p>
+                    <p>Last Name: Smith</p>
+                    <p>Email: sample123@gmail.com</p>
+                    <p>Gender: Attack Helicopter</p>
+                </div>
+
+                <div class="flex-box">
+                    <h2 id="boldUnder" id="bigFont">Messeges</h2>
+                    <br />
+                    <p>Nothing new today.. Come back later :D</p>
+                </div>
+            </div>
+        </main>
+    </body>
 </html>

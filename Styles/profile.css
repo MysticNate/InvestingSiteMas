@@ -1,16 +1,39 @@
-@import url('./reset.css');
+@import url("./reset.css");
 
 #profile_pic {
-    width: 15%;
-    height: auto;
+    width: 100px;
+    height: 150px;
     margin: 0%;
-    padding: 0%;
+    padding-bottom: 50px;
+    text-align: center;
 }
 
-#bigFont{
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 100px !important;
+    text-decoration: solid;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+}
+
+#bigFont {
     font-size: 30px;
+    text-decoration: solid;
+    text-decoration: underline;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(rgb(144, 144, 144), rgb(21, 21, 21));
+    background-size: cover;
+}
 .flex-container {
     width: 100%;
     height: auto;
@@ -21,16 +44,32 @@
 #boldUnder {
     text-decoration: solid;
     text-decoration: underline;
+    font-size: 50px;
 }
 
 .flex-box {
-    width: auto;
+    width: 38vw;
     height: auto;
-    background: linear-gradient(Green,Gray);
+    background: linear-gradient(Green, Gray);
     color: white;
-    text-align: center;
-    line-height: 30px; /* spaces between lines */
+    text-align: left;
+    line-height: 50px; /* spaces between lines */
     font-size: 25px;
     border-radius: 20px;
-    margin: 10px;
+    margin: 30px;
+    margin-top: 3vw;
+    padding: 40px;
+}
+
+.flex-box-main {
+    width: auto;
+    height: 500px;
+    background: linear-gradient(Green, Gray);
+    color: white;
+    text-align: center;
+    line-height: 50px; /* spaces between lines */
+    font-size: 25px;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 40px;
 }
