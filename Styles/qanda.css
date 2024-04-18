@@ -1,0 +1,33 @@
+@import url("./reset.css");
+@import url("./common.css");
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: white;
+}
+.flex-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* To evenly space items */
+}
+.question {
+    color: blanchedalmond;
+}
+
+.answer {
+    color: black
+}
+.flex-box {
+    width: calc(50% - 20px); 
+    margin-bottom: 20px;
+    background: linear-gradient(rgb(211, 141, 141), rgb(151, 238, 151));
+    color: white;
+    text-align: left;
+    line-height: 50px; /* spaces between lines */
+    font-size: 25px;
+    border-radius: 20px;
+    margin: 20px 0; /* margin for each box */
+    padding: 40px;
+}

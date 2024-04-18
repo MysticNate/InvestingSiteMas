@@ -6,12 +6,12 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: url("/Styles/Pictures/LoginBG.jpg") no-repeat center center;
-    background-size: cover;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    min-height: 100vh !important;
+    background: url("/Styles/Pictures/LoginBG.jpg") no-repeat center center !important;
+    background-size: cover !important;
 }
 
 #centerText {
