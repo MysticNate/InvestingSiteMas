@@ -35,3 +35,8 @@ h1 {
     margin: 20px 0; /* margin for each box */
     padding: 40px;
 }
+@media only screen and (max-width: 600px) {
+    .flex-container {
+        flex-direction: column; /* Change to a single column layout */
+    }
+}

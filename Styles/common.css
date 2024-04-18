@@ -26,14 +26,14 @@
 h1 {
     text-align: center;
     text-decoration: underline;
-    font-size: 40px;
+    font-size: 32px;
     color: white;
     margin-bottom: 20px;
 }
 h2 {
     color: beige;
     text-decoration: underline;
-    font-size: 30px;
+    font-size: 24px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -81,7 +81,7 @@ video {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 5px 10px;
+    padding: 20px 10px;
     height: 100px;
 }
 
@@ -159,7 +159,7 @@ footer {
 
 .menu__item {
     display: block;
-    padding: 12px 24px;
+    padding: 10px;
     color: #333;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
@@ -170,4 +170,7 @@ footer {
 
 .menu__item:hover {
     background-color: #cfd8dc;
+}
+.flex-box {
+    margin-bottom: 20px; /* Adjust as needed */
 }
