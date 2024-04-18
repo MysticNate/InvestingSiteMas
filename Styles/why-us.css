@@ -15,7 +15,7 @@ h2 {
     font-size: 40px;
 }
 footer {
-    position: fixed !important; /* Fixed positioning */
+    position: relative; /* Fixed positioning */
     bottom: 0; /* Positioned at the bottom */
     left: 0;
     width: 100%;
