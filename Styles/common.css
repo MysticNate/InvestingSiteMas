@@ -35,7 +35,7 @@ p {
     color: rgb(241, 222, 222);
 }
 body {
-    font-size: 1vw;
+    font-size: 10px;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -54,6 +54,24 @@ img {
     cursor: pointer;
     z-index: 1;
 }
+#site-logo{
+    width: 300px;
+    height: 140px;
+}
+footer {
+    position: relative; /* Fixed positioning */
+    bottom: 0; /* Positioned at the bottom */
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
 
 .menu__btn > span,
 .menu__btn > span::before,

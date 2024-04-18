@@ -18,6 +18,18 @@ body {
     text-align: center;
 }
 
+footer {
+    position: fixed !important; /* Fixed positioning */
+    bottom: 0; /* Positioned at the bottom */
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
 .container {
     background-image: url("/Styles/Pictures/LoginBG.jpg");
     background-size: cover; /* Cover the entire container */
