@@ -27,8 +27,12 @@ h1 {
     text-align: center;
     text-decoration: underline;
 }
+h2 {
+    color: beige;
+    text-decoration: underline;
+}
 p {
-    color: rgb(192, 192, 192);
+    color: rgb(241, 222, 222);
 }
 body {
     font-size: 1vw;
