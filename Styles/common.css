@@ -28,14 +28,20 @@ h1 {
     text-decoration: underline;
     font-size: 40px;
     color: white;
+    margin-bottom: 20px;
 }
 h2 {
     color: beige;
     text-decoration: underline;
     font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 p {
     color: rgb(241, 222, 222);
+}
+#center {
+    text-align: center;
 }
 body {
     font-size: 10px;
