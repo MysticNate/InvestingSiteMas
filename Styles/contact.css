@@ -43,10 +43,12 @@ img {
 
 .container h2 {
     text-align: center;
+    font-size: large;
 }
 
 .container p {
     text-align: center;
+    font-size: large;
 }
 
 .container::after,

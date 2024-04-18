@@ -10,8 +10,8 @@ body {
 
 #header {
     grid-area: header;
-    height: 599px;
-    background-color: aqua;
+    height: 400px;
+    text-align: center;
 }
 
 #main {
