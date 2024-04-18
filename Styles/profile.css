@@ -20,6 +20,15 @@ h2 {
     text-align: center;
 }
 
+.header {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 10px;
+    height: 100px;
+}
+
 footer {
     position: fixed !important; /* Fixed positioning */
     bottom: 0; /* Positioned at the bottom */
