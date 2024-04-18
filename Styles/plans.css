@@ -1,41 +1,57 @@
 @import url("./vars.css");
 @import url("./reset.css");
 
-body {
-    background-color: blanchedalmond;
-}
-
-.grid {
-    display: grid;
-}
-
-h1 {
+ .wrap{
+    padding:var(--space);
     text-align: center;
-    font-family: Verdana, sans-serif;
+    border: var(--space) solid;
+    color : var(--clr-secondary);
+    width:500px; 
+ }
+
+.image img{
+    width: 200px;
+    height:200px;
 }
 
-.title {
-    font-family: Verdana, sans-serif;
+img{
+    border-radius:5px;
 }
 
-.cards-holder {
-    margin-top: var(--space-lg);
-    grid-template-columns: repeat(3, 30%);
-    gap: var(--space);
-    justify-content: space-evenly;
+.image:hover{
+    scale: 1.1;
 }
 
+li{
+    padding: 5px;
+}
 .card {
+    width: 900px;
+    height:400px;
+    margin: 150px;
     padding: var(--space);
-    border: 5px solid var(--clr-secondary);
+    margin-top: var(--space-lg);
+    gap: calc(var(--space)*3);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+h3{
+    text-decoration: underline;
+    padding:15px;
+    font-size: calc(var(--space)*4);
+    font-family:'Trebuchet MS', Arial, sans-serif;
 }
 
-.card > .title {
-    font-size: var(--fs-lg);
-    background-color: var(--clr-accent);
-}
-
-button {
+.button {
     border-style: solid;
-    background-color: wheat;
+    background-color: rgba(136, 143, 185, 0.735);
+    padding:var(--space);
+    border-radius: var(--space-lg);
+    cursor: pointer;
+
 }
+.button:hover{
+background-color: rgb(128, 138, 146);
+}
+
