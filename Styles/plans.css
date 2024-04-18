@@ -25,16 +25,18 @@ img{
 li{
     padding: 5px;
 }
+
 .card {
-    width: 900px;
-    height:400px;
-    margin: 150px;
+    width: 1350px;
+    height:800px;
     padding: var(--space);
     margin-top: var(--space-lg);
     gap: calc(var(--space)*3);
-    justify-content: space-between;
+    justify-content: space-around !important;
     display: flex;
     align-items: center;
+    padding: 40px;
+    margin-left: 12%;
 }
 h3{
     text-decoration: underline;
